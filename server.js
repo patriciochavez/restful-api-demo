@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 
 // MongoDB
-mongoose.connect('mongodb://localhost/rest_test');
+mongoose.connect('mongodb://localhost/sampledb');
 
 // Express
 var app = express();
